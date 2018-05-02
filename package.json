@@ -1,0 +1,26 @@
+{
+  "name": "@sturmwalzer/ofln",
+  "version": "1.0.0",
+  "description": "Quickly save a page and its resources to disk. No fluff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LW2904/ofln.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LW2904/ofln/issues"
+  },
+  "homepage": "https://github.com/LW2904/ofln#readme",
+  "dependencies": {
+    "parse5": "^4.0.0"
+  },
+  "bin": {
+    "ofln": "./src/index.js"
+  }
+}
