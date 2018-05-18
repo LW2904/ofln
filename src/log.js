@@ -16,11 +16,9 @@ const log = (level, body, ...args) => {
     return (args || []).forEach((e) => write(level, inspect(e)));
   }
 
-  let index = -1;
+  let index = 0;
   const string = body.replace(/%o/g, () => {
-    index++;
-
-    return inspect(args[index], {
+    return inspect(args[index++], {
       depth: null,
       colors: true,
       compact: true,
