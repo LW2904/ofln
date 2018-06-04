@@ -1,8 +1,8 @@
 <h3 align="center">ofln</h3>
 
-Lightweight, fast, straightforward script to fatch a page and its resources, writing them to disk.
+Lightweight, fast, straightforward script to fetch a page and its resources, writing them to disk.
 
-Uses streams throughout, and the very quick [parse5](https://github.com/inikulin/parse5) module to parse html.
+Uses streams throughout and the very quick [parse5](https://github.com/inikulin/parse5) module to parse html, which is the only dependency.
 
 ```
 $ npm i -g @sturmwalzer/ofln
