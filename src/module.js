@@ -1,9 +1,9 @@
 const { save } = require('./ofln');
 
 exports.save = exports.default = (target, opts = {}) => {
-    const options = Object.assign({
+    const options = typeof target === 'string' ? Object.assign({
         target,
-    }, opts);
+    }, opts) : target;
 
     return save(options);
 };
