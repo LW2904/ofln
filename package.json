@@ -1,6 +1,6 @@
 {
   "name": "@sturmwalzer/ofln",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Quickly save a page and its resources to disk. No fluff.",
   "main": "./src/module.js",
   "scripts": {
